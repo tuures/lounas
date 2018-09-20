@@ -30,6 +30,7 @@ export default [
   ['Shanghai Cowboy', 'https://www.facebook.com/ShanghaiCowboyHKI/'],
   ['Zucchini', 'https://www.facebook.com/pages/Zucchini/195785583799461'],
   ['Hard Rock Cafe', 'http://www.hardrock.com/cafes/helsinki/menu.aspx#LunchMenu'],
+  ['Harald', 'https://www.ravintolaharald.fi/helsinki/lounas/'],
 ]
 
 // Temporarily out-of-service
