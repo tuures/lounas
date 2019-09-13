@@ -30,6 +30,7 @@ export default [
   ['Hard Rock Cafe', 'http://www.hardrock.com/cafes/helsinki/menu.aspx#LunchMenu'],
   ['Lo Stretto', 'http://www.lostretto.fi/menu-lounas-ja-a-la-carte'],
   ['Harald', 'https://www.ravintolaharald.fi/helsinki/lounas/'],
+  ['Vuorikadun kanttiini (Smarteat)', 'http://www.smarteat.fi/menu-smarteat-vuorikatu/']
 ]
 
 // Temporarily out-of-service
