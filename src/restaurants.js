@@ -31,7 +31,9 @@ export const restaurants = [
   ['Sofia Helsinki', 'https://sofiahelsinki.fi/sofia-ravintola-ja-cafe-bar/lounas/'],
   ['16 Boom', 'https://www.quandoo.fi/en/place/16-boom-92322'],
   ['Hani Cafe', 'https://www.hanicafechi.fi/'],
-  ['Swad Indian Bistro', 'https://swad.fi/']
+  ['Swad Indian Bistro', 'https://swad.fi/'],
+  ['Suburritos', 'https://suburritos.fi/menu/']
+]
 ]
 
 // Temporarily out-of-service
