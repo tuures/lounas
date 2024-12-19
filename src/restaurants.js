@@ -1,4 +1,4 @@
-export default [
+export const restaurants = [
   ['Ateneum Bistro', 'https://www.ateneumbistro.fi/'],
   ['Mount Everest Vilhola', 'http://www.everestyeti.fi/vilhola/fi/index.php'],
   ['Il Siciliano', 'https://espa.ilsiciliano.fi/lounas/'],
