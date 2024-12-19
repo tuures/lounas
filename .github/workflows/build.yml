@@ -1,10 +1,10 @@
-name: Build
+name: Build and deploy
 
 on: push
 
 jobs:
-  build:
-    name: Build
+  buildAndDeploy:
+    name: Build and deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,3 +15,9 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run build
+      - name: Deploy to surge.sh
+        if: github.ref == 'refs/heads/master'
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        run: npm run deploy
